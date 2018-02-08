@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		35C6B71D202C247400ABD32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6B71C202C247400ABD32C /* AppDelegate.swift */; };
-		35C6B71F202C247400ABD32C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6B71E202C247400ABD32C /* ViewController.swift */; };
+		35C6B71F202C247400ABD32C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6B71E202C247400ABD32C /* MasterViewController.swift */; };
 		35C6B722202C247400ABD32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C6B720202C247400ABD32C /* Main.storyboard */; };
 		35C6B724202C247400ABD32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C6B723202C247400ABD32C /* Assets.xcassets */; };
 		35C6B727202C247400ABD32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C6B725202C247400ABD32C /* LaunchScreen.storyboard */; };
+		35C6B72F202C367C00ABD32C /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6B72E202C367C00ABD32C /* SummaryViewController.swift */; };
+		35C6B731202C368E00ABD32C /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6B730202C368E00ABD32C /* SessionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35C6B719202C247400ABD32C /* ContainerViewExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C6B71C202C247400ABD32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35C6B71E202C247400ABD32C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35C6B71E202C247400ABD32C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		35C6B721202C247400ABD32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35C6B723202C247400ABD32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C6B726202C247400ABD32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35C6B728202C247400ABD32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C6B72E202C367C00ABD32C /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		35C6B730202C368E00ABD32C /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				35C6B71C202C247400ABD32C /* AppDelegate.swift */,
-				35C6B71E202C247400ABD32C /* ViewController.swift */,
+				35C6B71E202C247400ABD32C /* MasterViewController.swift */,
+				35C6B72E202C367C00ABD32C /* SummaryViewController.swift */,
+				35C6B730202C368E00ABD32C /* SessionsViewController.swift */,
 				35C6B720202C247400ABD32C /* Main.storyboard */,
 				35C6B723202C247400ABD32C /* Assets.xcassets */,
 				35C6B725202C247400ABD32C /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35C6B71F202C247400ABD32C /* ViewController.swift in Sources */,
+				35C6B71F202C247400ABD32C /* MasterViewController.swift in Sources */,
+				35C6B731202C368E00ABD32C /* SessionsViewController.swift in Sources */,
 				35C6B71D202C247400ABD32C /* AppDelegate.swift in Sources */,
+				35C6B72F202C367C00ABD32C /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
